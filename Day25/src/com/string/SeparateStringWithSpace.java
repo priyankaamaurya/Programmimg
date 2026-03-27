@@ -9,7 +9,7 @@ public class SeparateStringWithSpace {
 		
 		for(int i=0; i<s.length(); i++) {
 			char ch =s.charAt(i);
-			
+			 
 			if(ch !=' ') {
 				word = word +ch;
 			} else {
