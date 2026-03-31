@@ -18,7 +18,6 @@ public class LongestSubstring {
 			for(int j=i; j<s.length();j++) {
 				char c=s.charAt(j);
 				if(set.contains(c)) {
-//					System.out.println(word);
 					break;
 				}
 				word = word + c;
