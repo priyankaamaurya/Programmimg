@@ -18,7 +18,7 @@ public class MergeSort {
 		}
 		
 		while (i <= mid) {
-			temp[k++] = arr[i++];
+			temp[k++] = arr[i++]; 
 		}
 		
 		while (j <= right) {
@@ -43,14 +43,14 @@ public class MergeSort {
 	
 	public static void main(String[] args) {
 		
-		int arr[] = {5,2,4,6,1,3};
+		int arr[] = {9,7,8,5,2,4,6,1,3,0};
 		
 		mergeSort(arr, 0, arr.length - 1);
 		
-		System.out.println("Sorted array");
+		System.out.print("Sorted array : ");
 		
 		for(int num : arr) {
-			System.out.println(num + " ");
+			System.out.print(num + " ");
 		}
 	}
 }
