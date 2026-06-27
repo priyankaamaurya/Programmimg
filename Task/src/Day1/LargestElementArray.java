@@ -16,9 +16,11 @@ public class LargestElementArray {
     }
 
     public static void main(String[] args) {
-        int[] arr = {3, 7, 2, 9, 5};
+    	
+        int[] arr = {3, 7, 2, 9, 5, 6};
+        
         System.out.println("Largest element: " + findMax(arr));
+        
     }
 	
-
 }
