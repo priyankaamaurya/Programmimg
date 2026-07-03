@@ -30,6 +30,6 @@ public class TwoSum {
 		int target = 9;
 		
 		int[] result = twoSum(arr, target);
-		System.out.println(result[0] + " " + result[1]);
+		System.out.println("Indices: " + result[0] + ", " + result[1]);
 	}
 }
