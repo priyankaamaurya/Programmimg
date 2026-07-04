@@ -27,3 +27,5 @@ public class BruteForce {
 		System.out.println("Indices: " + result[0] + ", " + result[1]);
 	}
 }
+
+
