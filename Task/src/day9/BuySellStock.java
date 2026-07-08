@@ -3,6 +3,7 @@ package day9;
 public class BuySellStock {
 	
 	public static int maxProfit(int[] prices) {
+		
 		int minPrice = Integer.MAX_VALUE;
 		int maxProfit = 0;
 		
@@ -29,6 +30,7 @@ public class BuySellStock {
 		
 		int[] prices = {7, 1, 5, 3, 6, 4};
 		System.out.println("Max profits: " + maxProfit(prices));
+		
 	}
 
 }
