@@ -48,5 +48,4 @@ public class AnagramCheck {
 			System.out.println("Not Anagram");
 		}
 	}
-	
 }
