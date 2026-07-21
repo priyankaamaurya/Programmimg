@@ -10,9 +10,7 @@ public class MedianSortedArray {
 
         int i = 0, j = 0, k = 0;
 
-        
         // Merge arrays
-        
         while (i < n1 && j < n2) {
             if (nums1[i] < nums2[j]) {
                 merged[k++] = nums1[i++];
@@ -20,10 +18,8 @@ public class MedianSortedArray {
                 merged[k++] = nums2[j++];
             }
         }
-
-        
+      
         // Remaining elements
-        
         while (i < n1) {
             merged[k++] = nums1[i++];
         }
@@ -33,10 +29,8 @@ public class MedianSortedArray {
         }
 
         int total = n1 + n2;
-
-        
+       
         // Find median
-        
         if (total % 2 == 1) {
             return merged[total / 2];
         } else {
