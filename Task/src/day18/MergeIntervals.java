@@ -31,6 +31,7 @@ public class MergeIntervals {
 				// No overlap → add new interval
 				result.add(current);
 			}	
+			
 		}
 		
 		// Step 6: Convert list to array
