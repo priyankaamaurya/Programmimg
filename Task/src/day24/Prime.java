@@ -17,7 +17,7 @@ public class Prime {
             }
         }
 		
-		return true; // prime
+		return true; 
 	}
 	
 	public static void main(String[] args) {
