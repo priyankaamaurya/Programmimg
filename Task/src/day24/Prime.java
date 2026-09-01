@@ -18,6 +18,7 @@ public class Prime {
         }
 		
 		return true; 
+		
 	}
 	
 	public static void main(String[] args) {
