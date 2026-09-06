@@ -2,14 +2,14 @@ package day26;
 
 public class FibonacciRecursion {
 
-	public static int fib (int n) {
+	public static int fibb (int n) {
 		
 		// Step 1: Base case
 		if(n == 0) return 0;
 		if(n == 1) return 1;
 		
 		// Step 2: Recursive call
-		return fib(n-1) + fib(n-2);
+		return fibb(n-1) + fibb(n-2);
 	}
 	
 	public static void main(String[] args) {
@@ -17,7 +17,9 @@ public class FibonacciRecursion {
 		int n = 7;
 		
 		for(int i = 0; i < n; i++) {
-			System.out.println(fib(i) + " ");
+			
+			System.out.println(fibb(i) + " ");
+			
 		}
 	}
 }
