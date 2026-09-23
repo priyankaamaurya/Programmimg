@@ -13,7 +13,7 @@ public class Fibonacci {
 		// Step 2: Generate remaining numbers
 		 for (int i = 2; i < n; i++) {
 			 
-			 int next = a + b; // sum of previous two
+			 int next = a + b;             // sum of previous two
 	         System.out.print(next + " ");
 	         
 	         // Step 3: Update values
@@ -25,8 +25,10 @@ public class Fibonacci {
 	}
 	
 	public static void main(String[] args) {
-		 int n = 7; // number of terms 
+		
+		 int n = 7;                        // number of terms 
 		 printFibonacci(n);
+		 
 	}
 
 }
