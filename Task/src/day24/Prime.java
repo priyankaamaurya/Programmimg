@@ -9,19 +9,18 @@ public class Prime {
             return false;
         }
 		
-        // Step 2: Check divisibility
+        // Step 2: Check divisibilities
 		for (int i = 2; i <= Math.sqrt(num); i++) {
 
             if (num % i == 0) {
-                return false; // not prime
+                return false;        // not prime
             }
         }
 		
-		return true; //prime
+		return true;     //prime
 	}
 	
 	public static void main(String[] args) {
-		
 		int num = 7;
 		
 		if (isPrime(num)) {
