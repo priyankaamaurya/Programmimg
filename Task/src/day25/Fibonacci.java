@@ -24,11 +24,9 @@ public class Fibonacci {
 		
 	}
 	
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {		
 		 int n = 7;                        // number of terms 
-		 printFibonacci(n);
-		 
+		 printFibonacci(n);	 
 	}
 
 }
