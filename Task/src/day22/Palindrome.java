@@ -23,9 +23,9 @@ public class Palindrome {
 		int num = 121;
 		
 		if(isPalindrome(num)) {
-			System.out.println(num + " is Palindrome");
+			System.out.println(num + " is a Palindrome");
 		} else {
-			System.out.println(num + " is not Palindrome");
+			System.out.println(num + " is not a Palindrome");
 		}
 		
 	}

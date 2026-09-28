@@ -34,9 +34,9 @@ public class Strong {
 		int num = 145;
 		
 		if(isStrong(num)) {
-			System.out.println(num + " is Strong number");
+			System.out.println(num + " is a Strong number");
 		} else {
-			System.out.println(num + " is NOT Strong number");
+			System.out.println(num + " is NOT a Strong number");
 		}
 		
 	}
