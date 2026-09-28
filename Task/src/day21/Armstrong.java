@@ -28,7 +28,8 @@ public class Armstrong {
 		}
 		 
 		// Step 3: Compare with original
-		 return sum == original; 		
+		 return sum == original; 
+		 
 	}
 	
 	public static void main(String[] args) {
@@ -39,7 +40,6 @@ public class Armstrong {
 			System.out.println(num + " is an Armstrong Number");
 		} else {
 			System.out.println(num + " is NOT an Armstrong Number");
-		}
-		
+		}	
 	}
 }

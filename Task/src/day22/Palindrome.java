@@ -14,6 +14,7 @@ public class Palindrome {
 			num = num / 10;                      // remove last digit
 			
 		}
+		
 		return original == reverse;
 	}
 
@@ -26,5 +27,6 @@ public class Palindrome {
 		} else {
 			System.out.println(num + " is not Palindrome");
 		}
+		
 	}
 }
