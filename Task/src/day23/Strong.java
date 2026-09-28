@@ -28,6 +28,7 @@ public class Strong {
 		return sum == original;
 	}
 	
+	// factorial
 	public static void main(String[] args) {
 		
 		int num = 145;
@@ -37,6 +38,7 @@ public class Strong {
 		} else {
 			System.out.println(num + " is NOT Strong number");
 		}
+		
 	}
 
 }
