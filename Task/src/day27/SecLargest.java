@@ -23,7 +23,7 @@ public class SecLargest {
 		
 		int arr[] = {2,8,7,6,9,4,3,11};
 
-		System.out.println("Second Largest : " + secLar(arr));
+		System.out.println("Second Largest: " + secLar(arr));
 		
 	}
 
