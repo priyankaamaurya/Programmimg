@@ -22,7 +22,8 @@ public class SecLargest {
 	public static void main(String[] args) {
 		
 		int arr[] = {2,8,17,6,9,14,3,11};
-		System.out.println("Second Largest number: " + secLar(arr));
+		
+		System.out.println("Second Largest digit: " + secLar(arr));
 		
 	}
 
